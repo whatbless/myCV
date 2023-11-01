@@ -26,19 +26,19 @@ const About = () => {
     <div className="bg-bg min-h-screen">
       <div className="container mx-auto text-white font-bold">
         <div className="flex flex-wrap justify-center items-start h-full w-full">
-          <p className="text-center text-4xl w-full color-pears mt-32">
+          <p className="text-center md:text-4xl text-2xl w-full color-pears mt-32 mx-10">
             Здравствуйте, в этом разделе я хочу рассказать немного о себе:
           </p>
           <div className="bg-yellow w-full py-px mx-10 rounded-full mt-4"></div>
-          <div className="flex flex-row justify-between mx-10 mt-10">
-            <div className="bg-gradient w-1/4 h-max py-14 px-10 rounded-3xl">
+          <div className="flex xl:flex-row flex-col justify-between mx-10 mt-10">
+            <div className="bg-gradient xl:w-1/4 w-full h-max py-14 px-10 rounded-3xl">
               Зовут меня Синицын Роман Александрович {" ( "}не люблю
               официальности, поэтому больше предпочитаю{" "}
               <span className="color-pears">ромчик</span>
               {" )"}. 18 лет, живу в Самаре с братом, все родные у меня в другом
               городе.
             </div>
-            <div className="bg-gradient w-1/4 h-max px-10 py-10 rounded-3xl">
+            <div className="bg-gradient xl:w-1/4 w-full xl:mt-0 mt-10 h-max px-10 py-10 rounded-3xl">
               Образование у меня среднее общее, окончил 11 классов, в данный
               момент учусь в{" "}
               <span className="color-pears">
@@ -51,7 +51,7 @@ const About = () => {
               владею английским языком {" ( "} примерно на уровне Intermidate{" "}
               {" ) "}
             </div>
-            <div className="bg-gradient w-1/4 h-max px-10 py-10 rounded-3xl">
+            <div className="bg-gradient xl:w-1/4 w-full xl:mt-0 mt-10 h-max px-10 py-10 rounded-3xl">
               Немного погрузимся в мою профессиональную деятельность: как
               такового опыта работы у меня пока что нету, есть только парочка
               проектов, которые я редко пишу для практики, их вы можете увидеть
@@ -70,7 +70,7 @@ const About = () => {
               <div className="skill">{skill.title}</div>
             ))}
           </div>
-          <p className="my-10 text-xl text-start mx-10">
+          <p className="my-10 md:text-xl text-lg mx-10">
             Заинтересовал или хотите связаться со мной для уточнения какого-либо
             вопроса, можете сделать это по{" "}
             <NavLink to="/contacts" className="color-pears">

@@ -15,7 +15,7 @@ const Projects = () => {
     <div className="bg-bg min-h-screen">
       <div className="container mx-auto text-white font-bold">
         <div className="flex flex-wrap justify-center items-start h-full w-full">
-          <div className="text-center text-4xl w-full color-pears mt-32">
+          <div className="text-center lg:text-4xl md:text-3xl text-2xl w-full color-pears mt-32 mx-10">
             Мои проекты и пройденные мной курсы:
           </div>
           <div className="bg-yellow w-full py-px rounded-full mt-4 mx-10"></div>
@@ -23,46 +23,46 @@ const Projects = () => {
             Hard skill development
           </div>
           <div className="project-block w-full">
-            <div className="flex flex-row space-x-5 justify-center">
+            <div className="flex xl:flex-row flex-col xl:space-x-5 justify-center">
               <a
-                className="w-1/3"
+                className="xl:w-1/3 w-2/3 xl:mx-0 mx-auto"
                 href="https://whatbless.github.io/pifagor/"
                 target="_blank"
               >
                 <img src={pifagor1} alt="project-img1" />
               </a>
               <a
-                className="w-1/3"
+                className="xl:w-1/3 w-2/3 xl:mx-0 mx-auto xl:mt-0 mt-10"
                 href="https://whatbless.github.io/pifagor/"
                 target="_blank"
               >
                 <img src={pifagor2} alt="project-img2" />
               </a>
             </div>
-            <p className="pt-5">
+            <p className="pt-5 mx-10">
               Мой первый проект - сайт-визитка своему репетитору по математике.
               Я предлагал доделать все бесплатно, но ему было не интересно, к
               сожалению {";("}
             </p>
           </div>
           <div className="project-block w-full">
-            <div className="flex flex-row space-x-5 justify-center">
+            <div className="flex 2xl:flex-row flex-col 2xl:space-x-5 justify-center">
               <a
-                className="w-1/4"
+                className="2xl:w-1/4 w-2/3 2xl:mx-0 mx-auto"
                 href="https://whatbless.github.io/react-social-network/"
                 target="_blank"
               >
                 <img src={social1} alt="project-img3" />
               </a>
               <a
-                className="w-1/4"
+                className="2xl:w-1/4 w-2/3 2xl:mx-0 mx-auto 2xl:mt-0 mt-10"
                 href="https://whatbless.github.io/react-social-network/"
                 target="_blank"
               >
                 <img src={social2} alt="project-img4" />
               </a>
               <a
-                className="w-1/4"
+                className="2xl:w-1/4 w-2/3 2xl:mx-0 mx-auto 2xl:mt-0 mt-10"
                 href="https://whatbless.github.io/react-social-network/"
                 target="_blank"
               >
@@ -96,16 +96,16 @@ const Projects = () => {
             </p>
           </div>
           <div className="project-block w-full">
-            <div className="flex flex-row space-x-5 justify-center">
+            <div className="flex xl:flex-row flex-col xl:space-x-5 justify-center">
               <a
-                className="w-1/3"
+                className="xl:w-1/3 w-2/3 xl:mx-0 mx-auto"
                 href="https://whatbless.github.io/it-planet/"
                 target="_blank"
               >
                 <img src={itplanet1} alt="project-img6" />
               </a>
               <a
-                className="w-1/3"
+                className="xl:w-1/3 w-2/3 xl:mx-0 mx-auto xl:mt-0 mt-10"
                 href="https://whatbless.github.io/it-planet/"
                 target="_blank"
               >
@@ -120,7 +120,7 @@ const Projects = () => {
           <div className="project-block w-full">
             <div className="flex flex-row justify-center">
               <a
-                className="w-1/2"
+                className="mx-20"
                 href="https://practicum.yandex.ru/git-basics/?from=catalog"
                 target="_blank"
               >
@@ -144,7 +144,7 @@ const Projects = () => {
           <div className="project-block w-full">
             <div className="flex flex-row justify-center">
               <a
-                className="w-1/2"
+                className="w-2/3"
                 href="https://sberuniversity.online/programs/17072"
                 target="_blank"
               >

@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div className="background">
       <div className="container mx-auto flex flex-row justify-between">
-        <div className="flex flex-col justify-center items-start h-screen w-screen pl-32">
+        <div className="flex flex-col justify-center items-start h-screen w-screen md:ml-32 sm:ml-10 mx-auto">
           <div>
             <p className="color-pears font-bold text-5xl">Приветствую,</p>
             <p className="color-pears font-bold text-5xl py-5">
