@@ -18,8 +18,8 @@ const Projects = () => {
           <div className="text-center text-4xl w-full color-pears mt-32">
             Мои проекты и пройденные мной курсы:
           </div>
-          <div className="bg-yellow w-full py-px rounded-full mt-4"></div>
-          <div className="uppercase text-xl mt-5 mb-3 text-start w-full">
+          <div className="bg-yellow w-full py-px rounded-full mt-4 mx-10"></div>
+          <div className="uppercase text-xl mt-5 mb-3 text-start w-full mx-10">
             Hard skill development
           </div>
           <div className="project-block w-full">
@@ -138,7 +138,7 @@ const Projects = () => {
               ромчик иди проходи до конца!!
             </p>
           </div>
-          <div className="uppercase text-xl mt-5 mb-3 text-start w-full">
+          <div className="uppercase text-xl mt-5 mb-3 text-start w-full mx-10">
             Soft skill development
           </div>
           <div className="project-block w-full">

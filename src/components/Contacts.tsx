@@ -14,8 +14,8 @@ const Contacts = () => {
           <div className="text-center text-4xl w-full color-pears mt-32">
             В данном разделе вы можете найти способ связи со мной
           </div>
-          <div className="bg-yellow w-full py-px rounded-full mt-4"></div>
-          <div className="uppercase text-xl mt-10 mb-3 text-start w-full">
+          <div className="bg-yellow w-full py-px rounded-full mt-4 mx-10"></div>
+          <div className="uppercase text-xl mt-10 mb-3 text-start w-full mx-10">
             Милый факт обо мне: очень быстро продаюсь{" "}
             <span className="px-10 py-5 bg-red-500 rounded-2xl ml-5">
               FOR SALE!!!
@@ -39,7 +39,7 @@ const Contacts = () => {
                 />
               </a>
             </div>
-            <div className="mt-10 offer">
+            <div className="m-20 offer">
               <img src={offer} alt="offer-img" />
             </div>
           </div>

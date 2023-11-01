@@ -29,8 +29,8 @@ const About = () => {
           <p className="text-center text-4xl w-full color-pears mt-32">
             Здравствуйте, в этом разделе я хочу рассказать немного о себе:
           </p>
-          <div className="bg-yellow w-full py-px rounded-full mt-4"></div>
-          <div className="flex flex-row justify-between mt-10">
+          <div className="bg-yellow w-full py-px mx-10 rounded-full mt-4"></div>
+          <div className="flex flex-row justify-between mx-10 mt-10">
             <div className="bg-gradient w-1/4 h-max py-14 px-10 rounded-3xl">
               Зовут меня Синицын Роман Александрович {" ( "}не люблю
               официальности, поэтому больше предпочитаю{" "}
@@ -65,12 +65,12 @@ const About = () => {
             </div>
           </div>
           <p className="mt-10 text-xl">Мои ключевые навыки:</p>
-          <div className="flex flex-wrap w-full justify-center">
+          <div className="flex flex-wrap w-full justify-center mx-10">
             {skills.map((skill) => (
               <div className="skill">{skill.title}</div>
             ))}
           </div>
-          <p className="my-10 text-xl text-start">
+          <p className="my-10 text-xl text-start mx-10">
             Заинтересовал или хотите связаться со мной для уточнения какого-либо
             вопроса, можете сделать это по{" "}
             <NavLink to="/contacts" className="color-pears">
