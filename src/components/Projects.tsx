@@ -79,7 +79,7 @@ const Projects = () => {
               протестировать функционал приложения, логин и пароль оставляю
               здесь: <br />
               <span className="color-pears">
-                email: free@samuraijs.com <br /> password: free
+                email: sinitsyn.roman17@mail.ru <br /> password: zM6n4!zJ6_WL4Nq
               </span>
               <br />
               Вдохновился я сделать этот проект после просмотра этого{" "}
