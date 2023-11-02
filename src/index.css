@@ -17,7 +17,7 @@ code {
 .background {
   height: min-content;
   background-color: #151d20;
-  background-image: url(./images/pears.jpg);
+  background-image: url(./images/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
