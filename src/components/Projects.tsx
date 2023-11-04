@@ -132,10 +132,8 @@ const Projects = () => {
               будущем, работая в команде не положить приложение {"( "}
               <span className="color-pears">
                 забота о коллективе и успехе компании {";)"}
-              </span>{" "}
-              {")"}
-              <br />
-              ромчик иди проходи до конца!!
+              </span>
+              {" )"}
             </p>
           </div>
           <div className="uppercase text-xl mt-5 mb-3 text-start w-full mx-10">
